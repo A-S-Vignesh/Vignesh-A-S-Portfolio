@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { logoimage } from "./Images";
 import DarkMode from "./DarkMode";
 
 const Navbar = () => {
@@ -28,7 +29,7 @@ const Navbar = () => {
         {/* Logo */}
         <div className="text-2xl font-bold text-sky-500">
           <a href="#" onClick={() => handleScroll("home")}>
-            MyPortfolio
+            <img className="h-[45px]" src={logoimage} alt="" />
           </a>
         </div>
 

@@ -5,7 +5,7 @@ import notepadProject from "../assets/project/notepad-light.png";
 import pokemonProject from "../assets/project/pokemon-light.png";
 import myimage from "../assets/main-image-final.png";
 import studentimage from "../assets/education-details/student.jpg";
-import logoimage from "../assets/logo/vignesh-a-s.png";
+import logoimage from "../assets/logo/vignesh-a-s-logo.png";
 import vigneshimage from "../assets/myimage/vignesh-a-s.jpg";
 
 import htmlimage from "../assets/skills/html.png";
