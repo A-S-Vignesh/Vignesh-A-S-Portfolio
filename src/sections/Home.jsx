@@ -31,7 +31,6 @@ function Home() {
             </h1>
           </div>
           <div className="">
-            {/* <img src={mainimage} alt="Vignesh" /> */}
             <LaptopFloat />
           </div>
         </div>
