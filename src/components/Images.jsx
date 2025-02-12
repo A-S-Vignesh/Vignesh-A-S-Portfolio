@@ -7,6 +7,7 @@ import myimage from "../assets/main-image-final.png";
 import studentimage from "../assets/education-details/student.jpg";
 import logoimage from "../assets/logo/vignesh-a-s-logo.png";
 import vigneshimage from "../assets/myimage/vignesh-a-s.jpg";
+import chatimage from "../assets/chat-balloon.png";
 
 import htmlimage from "../assets/skills/html.png";
 import cssimage from "../assets/skills/css.png";
@@ -28,6 +29,7 @@ import socketioimage from "../assets/skills/socketio.png";
 import vscodeimage from "../assets/skills/vscode.png";
 
 export {
+  chatimage,
   cloud,
   mainimage,
   notepadProject,

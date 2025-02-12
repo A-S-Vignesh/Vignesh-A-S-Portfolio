@@ -9,6 +9,7 @@ import About from "./sections/About";
 import Skills from "./sections/Skills";
 import Navbar from "./components/Navbar";
 import Contact from "./sections/Contact";
+import Chatbot from "./components/Chatbot";
 
 function App() {
   useEffect(() => {
@@ -32,6 +33,7 @@ function App() {
         <Contact />
         <Footer />
       </div>
+      <Chatbot />
     </div>
   );
 }
