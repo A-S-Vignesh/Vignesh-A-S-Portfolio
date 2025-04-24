@@ -8,14 +8,14 @@ function ProjectBox({ name, detail, image, gitlink, livedemo, fade }) {
       data-aos={fade}
     >
       <figure>
-        <img className="border-b-2" src={image} alt="Shoes" />
+        <img className="border-b-2" src={image} alt={name} />
       </figure>
       <div className="card-body">
-        {/* <div className="flex gap-4 p-4">
+        <div className="flex gap-4 p-4">
           <Tag text="React" />
           <Tag text="Tailwind CSS" />
           <Tag text="JavaScript" />
-        </div> */}
+        </div>
         <h2 className="card-title text-sky-500 font-bold text-lg">{name}</h2>
         <p className="text-sm">{detail}</p>
         <div className="card-actions justify-between">
