@@ -1,12 +1,5 @@
 const educationDetails = [
   {
-    id: 1,
-    year: "2017 - 2018",
-    course: "SSLC",
-    institute: "SPIC Nagar Higher Secondary School",
-    city: "Thoothukudi - 628008",
-  },
-  {
     id: 2,
     year: "2019 - 2020",
     course: "HSC",
@@ -26,6 +19,13 @@ const educationDetails = [
     course: "MCA",
     institute: "Presidency College",
     city: "Chennai",
+  },
+  {
+    id: 5,
+    year: "Dec 2024 - May 2025",
+    course: "Web developer Intern",
+    institute: "Godparticles",
+    city: "Adayar, Chennai",
   },
 ];
 
