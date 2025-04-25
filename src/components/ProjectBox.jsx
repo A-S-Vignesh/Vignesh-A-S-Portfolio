@@ -30,7 +30,7 @@ function ProjectBox({
       </figure>
 
       <div className="card-body p-4">
-        <div className="flex flex-wrap gap-2 mb-8">
+        <div className="flex flex-wrap gap-2 mb-4" data-aos="fade-in">
           {techstack.map((item, index) => (
             <Tag
               key={index}
