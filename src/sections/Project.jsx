@@ -21,7 +21,7 @@ function Project() {
       </div>
 
       <p
-        className="text-sm md:text-base text-center mb-8 md:mb-12 text-gray-600 dark:text-gray-400 max-w-2xl mx-auto"
+        className="text-base md:text-lg text-center mb-8 md:mb-12 text-gray-800 dark:text-gray-200 font-medium max-w-2xl mx-auto"
         data-aos="fade-up"
         data-aos-delay="200"
       >
