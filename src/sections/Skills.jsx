@@ -4,7 +4,7 @@ import skillsDetails from "../utils/skillsDetails";
 const Skills = () => {
   return (
     <section id="skills" className="py-12 px-6 lg:py-16" data-aos="fade-up">
-      <div className="flex flex-col items-center justify-center mb-8">
+      <div className="flex flex-col items-center justify-center m-4">
         <h2
           className="text-3xl md:text-4xl font-bold text-center text-gray-800 dark:text-gray-100"
           data-aos="fade-down"

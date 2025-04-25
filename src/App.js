@@ -23,7 +23,9 @@ function App() {
     <div className="dark:text-white font-roboto">
       <Home />
       <Navbar />
-      <About />
+      <div className="dark:bg-custom-grey">
+        <About />
+      </div>
       <div className="bg-gradient-whitetoblue dark:bg-gradient-greytodarkblue">
         <Education />
         <Skills />
