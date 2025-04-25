@@ -21,6 +21,7 @@ function Project() {
                 name={data.name}
                 image={data.image}
                 detail={data.description}
+                techstack={data.techstack}
                 gitlink={data.gitlink}
                 livedemo={data.livedemo}
                 fade={data.fade}
