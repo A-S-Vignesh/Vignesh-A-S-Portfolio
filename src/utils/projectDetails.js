@@ -7,7 +7,7 @@ const projectDetails = [
     description:
       "A blog website where users from around the world can write blogs and generate content using Gemini AI.",
     gitlink: "https://github.com/A-S-Vignesh/blog-gpt",
-    livedemo: "https://th-blog-gpt.vercel.app/",
+    livedemo: "https://thebloggpt.vercel.app/",
     fade: "fade-up",
     techstack: ["Next.js", "MongoDB", "Tailwind CSS", "Gemini AI","Google Auth", "JWT"],
   },
