@@ -35,7 +35,7 @@ function App() {
         <Contact />
         <Footer />
       </div>
-      <Chatbot />
+      {/* <Chatbot /> */}
     </div>
   );
 }

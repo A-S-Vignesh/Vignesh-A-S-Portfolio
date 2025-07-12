@@ -5,7 +5,7 @@ import { Environment, ContactShadows, OrbitControls } from "@react-three/drei";
 
 function LaptopFloat() {
     return (
-      <div className="h-[400px] w-screen md:h-[300px] md:w-[500px] lg:h-screen lg:w-[750px]">
+      <div className="relative w-full  max-w-[750px] h-[400px] md:h-[500px] lg:h-screen flex items-center justify-center overflow-hidden pointer-events-none">
         <Canvas camera={{ position: [-5, 0, -15], fov: 55 }}>
           <pointLight position={[10, 10, 10]} intensity={1.5} />
           <Suspense fallback={null}>

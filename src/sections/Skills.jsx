@@ -5,7 +5,7 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="py-12 lg:py-16 dark:bg-custom-darkblue"
+      className="py-12 lg:py-16"
       data-aos="fade-up"
     >
       <div className="container mx-auto px-6 md:px-10 lg:px-32">
