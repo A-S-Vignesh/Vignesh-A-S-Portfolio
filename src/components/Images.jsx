@@ -17,7 +17,7 @@ import nodeimage from "../assets/skills/node.png";
 import mongodbimage from "../assets/skills/mongodb.png";
 import tailwindimage from "../assets/skills/tailwindcss.png";
 import gitimage from "../assets/skills/git.png";
-// import nextjsimage from "../assets/skills/nextjs.png";
+import nextjsimage from "../assets/skills/next.png";
 // import bootstrapimage from "../assets/skills/bootstrap.png";
 import reduximage from "../assets/skills/redux.png";
 import excelimage from "../assets/skills/excel.png";
@@ -45,6 +45,7 @@ export {
   nodeimage,
   mongodbimage,
   tailwindimage,
+  nextjsimage,
   gitimage,
   reduximage,
   excelimage,

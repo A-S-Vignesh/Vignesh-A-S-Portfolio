@@ -22,10 +22,17 @@ const educationDetails = [
   },
   {
     id: 5,
-    year: "Dec 2024 - May 2025",
+    year: "Dec 2024 - June 2025",
     course: "Web developer Intern",
     institute: "Godparticles",
     city: "Adayar, Chennai",
+  },
+  {
+    id: 6,
+    year: "July 2025 - til Now",
+    course: "Junior Web developer",
+    institute: "Sunlight Group",
+    city: "Sembakam, Chennai",
   },
 ];
 

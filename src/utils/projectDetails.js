@@ -8,7 +8,7 @@ const projectDetails = [
       "A blog website where users from around the world can write blogs and generate content using Gemini AI.",
     gitlink: "https://github.com/A-S-Vignesh/blog-gpt",
     livedemo: "https://thebloggpt.vercel.app/",
-    fade: "fade-up",
+    
     techstack: [
       "Next.js",
       "MongoDB",
@@ -27,7 +27,7 @@ const projectDetails = [
       "A simple note-taking application with create, update, and delete features.",
     gitlink: "https://github.com/A-S-Vignesh/Notepad",
     livedemo: "https://thenotepad.vercel.app/",
-    fade: "fade-up",
+    fadeDuration: 300,
     techstack: [
       "React",
       "MongoDB",
@@ -47,7 +47,7 @@ const projectDetails = [
       "An e-commerce style website for a restaurant where food items can be browsed and ordered.",
     gitlink: "https://github.com/A-S-Vignesh/Food-Restaurent",
     livedemo: "https://restaurant-website-dem.vercel.app/",
-    fade: "fade-up",
+    fadeDuration: 400,
     techstack: [
       "React",
       "MongoDB",
@@ -67,7 +67,7 @@ const projectDetails = [
       "A viewer app to browse and explore Pokémon using the Fetch API.",
     gitlink: "https://github.com/A-S-Vignesh/pokemon",
     livedemo: "https://thepokemonexplorer.vercel.app/",
-    fade: "fade-up",
+    fadeDuration: 500,
     techstack: ["React", "Tailwind CSS", "Fetch API"],
   },
   {
@@ -78,7 +78,7 @@ const projectDetails = [
       "My personal portfolio website with dark/light mode, chatbot, 3D laptop screen embed, and smooth scrolling.",
     gitlink: "https://github.com/A-S-Vignesh/Vignesh-A-S-Portfolio",
     livedemo: "https://a-s-vignesh-portfolio.vercel.app/",
-    fade: "fade-up",
+    fadeDuration: "fade-up",
     techstack: ["React", "Tailwind CSS", "AOS"],
   },
   {
@@ -89,8 +89,42 @@ const projectDetails = [
     description: "An e-commerce website for buying footwear online.",
     gitlink: "https://github.com/A-S-Vignesh/lolo",
     livedemo: "https://lolofootwear.ct.ws/",
-    fade: "fade-up",
+    fadeDuration: 600,
     techstack: ["PHP", "MySQL", "HTML", "CSS"],
+  },
+];
+
+export const clientProjects = [
+  {
+    id: 1,
+    name: "VigneshWaran - Digital Marketing",
+    image:
+      "https://ik.imagekit.io/asvignesh/portfolio/client-project/vigneshwaran-portfolio.webp",
+    description:
+      "A portfolio website for a digital marketing professional, showcasing their services and expertise.",
+    gitlink: "",
+    livedemo: "https://www.vigneshwaran.co.in/",
+    
+    techstack: [
+      "React.js",
+      "Tailwind CSS",
+    ],
+  },
+  {
+    id: 2,
+    name: "Ruby Scaffolding",
+    image:
+      "https://ik.imagekit.io/asvignesh/portfolio/client-project/ruby-scaffolding.webp",
+    description:
+      "A Scaffolding Rental service website that allows users to rent scaffolding for all projects.",
+    gitlink: "",
+    livedemo: "https://rubyscaffoling.com/",
+    fadeDuration: 300,
+    techstack: [
+      "Next.js",
+      "MongoDB",
+      "Tailwind CSS",
+    ],
   },
 ];
 
