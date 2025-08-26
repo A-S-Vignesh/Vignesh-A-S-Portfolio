@@ -1,22 +1,15 @@
 import React from "react";
 
-
 function About() {
   return (
-    <section id="about" data-aos="fade-up">
+    <section id="about" data-aos="fade-up" className="scroll-mt-20">
       <div className="flex flex-col items-center justify-center container mx-auto px-6 md:px-10 lg:px-32 py-5">
-        <h3
-          className="text-3xl font-bold"
-          data-aos="fade-down"
-          data-aos-delay="100"
-        >
-          About Me
-        </h3>
-        <hr
-          className="w-[90px] border-b-4 m-4 border-custom-textblue"
-          data-aos="fade-down"
-          data-aos-delay="200"
-        />
+        <div data-aos="fade-up" data-aos-delay="100">
+          <h3 className="text-3xl font-bold">About Me</h3>
+          <hr
+            className="w-[90px] border-b-4 m-4 border-custom-textblue"
+          />
+        </div>
 
         <p
           className="text-xl md:text-2xl tracking-wider leading-relaxed py-2"

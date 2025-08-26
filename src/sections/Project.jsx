@@ -4,20 +4,16 @@ import projectDetails,{clientProjects} from "../utils/projectDetails";
 
 function Project() {
   return (
-    <section id="projects">
-      <div className="flex flex-col items-center justify-center mb-8">
-        <h2
-          className="text-3xl md:text-4xl font-bold text-center text-gray-800 dark:text-gray-100"
-          data-aos="fade-down"
-          data-aos-delay="100"
-        >
+    <section id="projects" className="mb-8">
+      <div
+        data-aos="fade-up"
+        data-aos-delay="100"
+        className="flex flex-col items-center justify-center mb-8"
+      >
+        <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-800 dark:text-gray-100">
           Projects
         </h2>
-        <hr
-          className="w-[70px] border-b-4 m-4 border-custom-textblue"
-          data-aos="fade-down"
-          data-aos-delay="150"
-        />
+        <hr className="w-[70px] border-b-4 m-4 border-custom-textblue" />
       </div>
 
       <p
@@ -48,18 +44,16 @@ function Project() {
         </div>
       </div>
 
-      <div className="flex flex-col items-center justify-center my-8">
-        <h2
-          className="text-3xl md:text-4xl font-bold text-center text-gray-800 dark:text-gray-100"
-          data-aos="fade-down"
-          data-aos-delay="100"
-        >
+      <div
+        data-aos="fade-up"
+        data-aos-delay="100"
+        className="flex flex-col items-center justify-center my-8"
+      >
+        <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-800 dark:text-gray-100">
           Client Projects
         </h2>
         <hr
           className="w-[70px] border-b-4 m-4 border-custom-textblue"
-          data-aos="fade-down"
-          data-aos-delay="150"
         />
       </div>
 

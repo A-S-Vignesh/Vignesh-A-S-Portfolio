@@ -3,24 +3,18 @@ import skillsDetails from "../utils/skillsDetails";
 
 const Skills = () => {
   return (
-    <section
-      id="skills"
-      className="py-12 lg:py-16"
-      data-aos="fade-up"
-    >
+    <section id="skills" className="py-12 lg:py-16" data-aos="fade-up">
       <div className="container mx-auto px-6 md:px-10 lg:px-32">
-        <div className="flex flex-col items-center justify-center mb-8">
-          <h2
-            className="text-3xl md:text-4xl font-bold text-center text-gray-800 dark:text-gray-100"
-            data-aos="fade-down"
-            data-aos-delay="100"
-          >
+        <div
+          data-aos="fade-up"
+          data-aos-delay="100"
+          className="flex flex-col items-center justify-center mb-8"
+        >
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-800 dark:text-gray-100">
             Skills
           </h2>
           <hr
             className="w-[60px] border-b-4 m-4 border-custom-textblue"
-            data-aos="fade-down"
-            data-aos-delay="150"
           />
         </div>
 

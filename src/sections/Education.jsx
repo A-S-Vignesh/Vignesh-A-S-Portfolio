@@ -6,10 +6,10 @@ import { studentimage } from "../components/Images";
 function Education() {
   return (
     <section id="education" data-aos="fade-up" data-aos-duration="600">
-      <div className="container mx-auto px-6 md:px-10 lg:px-32 py-5">
+      <div className="container mx-auto px-6 md:px-10 lg:px-32 py-5 overflow-hidden">
         <div
           className="flex flex-col items-center justify-center mb-4"
-          data-aos="fade-down"
+          data-aos="fade-up"
           data-aos-delay="200"
         >
           <h2 className="text-3xl font-bold text-center text-gray-800 dark:text-gray-100">
@@ -17,8 +17,6 @@ function Education() {
           </h2>
           <hr
             className="w-[140px] border-b-4 m-4 border-custom-textblue"
-            data-aos="fade-down"
-            data-aos-delay="300"
           />
         </div>
 

@@ -118,7 +118,7 @@ export const clientProjects = [
     description:
       "A Scaffolding Rental service website that allows users to rent scaffolding for all projects.",
     gitlink: "",
-    livedemo: "https://rubyscaffoling.com/",
+    livedemo: "https://rubyscaffolding.com/",
     fadeDuration: 300,
     techstack: [
       "Next.js",

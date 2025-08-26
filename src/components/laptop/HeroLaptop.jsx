@@ -1,60 +1,82 @@
-import React from 'react'
+import React from "react";
+import { logoimage } from "../Images";
+import { ReactTyped } from "react-typed";
 
 function HeroLaptop() {
+  const scrollToHero = () => {
+    const scrollableContainer = document.querySelector(".scrollable-container"); // Ensure this matches your scrollable container class
+    const heroSection = document.getElementById("hero"); // Replace with your Hero section's ID
+
+    if (scrollableContainer && heroSection) {
+      const heroPosition =
+        heroSection.offsetTop - scrollableContainer.offsetTop;
+      scrollableContainer.scrollTo({
+        top: heroPosition,
+        behavior: "smooth",
+      });
+    }
+  };
+
   return (
-    <section id="hero" className="bg-gray-50 py-12 dark:bg-gray-800">
-      <div className="max-w-screen-xl h-full lg:h-[500px] mx-auto px-2 md:px-8 flex flex-col-reverse md:flex-row items-center justify-center">
-        <div className="md:w-1/2 text-left space-y-4">
-          <h2 className="text-6xl md:text-4xl font-semibold">Hi There, I am</h2>
-          <h1 className="text-7xl md:text-6xl font-bold text-yellow-500 dark:text-yellow-400">
-            Vignesh A S
-          </h1>
-          <h3 className="text-6xl md:text-4xl">A Web Developer</h3>
-          <div className="flex space-x-4">
-            <a href="#aboutme" className="btn btn-warning btn-lg text-2xl">
-              About me
-            </a>
-            <a
-              href="images/Vignesh-Resume.pdf"
-              download="Vignesh-Resume.pdf"
-              className="btn btn-primary btn-lg text-2xl"
-            >
-              Resume
-            </a>
-          </div>
-          <div className="flex space-x-4 mt-4">
-            {/* Social Icons */}
-            {[
-              { src: "images/svg/facebook-round.svg", link: "#" },
-              {
-                src: "images/svg/github-round.svg",
-                link: "https://github.com/Halo-One/",
-              },
-              {
-                src: "images/svg/linkedin-round.svg",
-                link: "https://www.linkedin.com/in/a-s-vignesh/",
-              },
-            ].map(({ src, link }) => (
-              <a key={src} href={link} target="_blank" rel="noreferrer">
-                <img
-                  src={src}
-                  alt="Social Icon"
-                  className="w-12 h-12 filter dark:invert dark:brightness-75 transition-transform hover:scale-110"
-                />
-              </a>
-            ))}
-          </div>
-        </div>
-        <div className="md:w-1/2 mt-8 md:mt-0">
+    <div className="text-left w-full min-h-[550px]" data-aos="fade-up">
+      <div className="flex flex-col md:flex-row justify-center items-center  p-4 md:p-8">
+        <div className="w-full md:w-1/2 p-4">
+          <h4 className="text-7xl md:text-5xl py-2">Hi there,</h4>
+          <h4 className="text-7xl md:text-5xl py-2">I am</h4>
           <img
-            src="images/main-image.png"
+            src={logoimage}
+            alt="Vignesh Portfolio Logo"
+            className="w-auto h-28 md:h-20 my-2"
+          />
+
+          <h1 className="font-bold py-2 text-nowrap text-blue-600 dark:text-blue-500">
+            <ReactTyped
+              strings={[
+                "A Web Developer",
+                "A Full Stack Developer",
+                "A MERN Stack Developer",
+                "A Programmer",
+              ]}
+              typeSpeed={100}
+              backSpeed={50}
+              loop
+              cursorChar="|"
+              className="text-5xl md:text-3xl font-semibold"
+            />
+          </h1>
+        </div>
+        <div className="w-full md:w-1/2 mt-8 md:mt-0">
+          <img
+            src="images/vickywithpenguin2.png"
             alt="Main Visual"
-            className="w-full h-auto rounded-lg"
+            className="w-full h-auto rounded-full"
           />
         </div>
       </div>
-    </section>
+      <div className="flex justify-center">
+        <button
+          onClick={scrollToHero}
+          className="flex flex-col items-center animate-bounce"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="w-8 h-8 text-yellow-500 dark:text-yellow-400"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            strokeWidth={2}
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M19 9l-7 7-7-7"
+            />
+          </svg>
+          <span className="mt-2 text-sm font-medium">Scroll</span>
+        </button>
+      </div>
+    </div>
   );
 }
 
-export default HeroLaptop
+export default HeroLaptop;

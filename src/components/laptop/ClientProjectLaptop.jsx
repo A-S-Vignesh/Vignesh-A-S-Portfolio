@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import projectDetails from "../../utils/projectDetails";
+import { clientProjects } from "../../utils/projectDetails";
 import {
   FiExternalLink,
   FiGithub,
@@ -7,9 +7,9 @@ import {
   FiChevronLeft,
 } from "react-icons/fi";
 
-function ProjectLaptop() {
+function ClientProjectLaptop() {
   const [activeProject, setActiveProject] = useState(0);
-  const topProjects = projectDetails.slice(0, 3); // Show top 3 projects
+  const topProjects = clientProjects.slice(0, 2); // Show top 3 projects
 
   const nextProject = () => {
     setActiveProject((prev) =>
@@ -25,14 +25,16 @@ function ProjectLaptop() {
 
   return (
     <div
-      id="laptopprojects"
+      id="laptopclientprojects"
       className="w-full bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-gray-900 dark:to-gray-800 py-16 px-4"
     >
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-gray-800 dark:text-white mb-4">
             Featured{" "}
-            <span className="text-blue-600 dark:text-blue-400">Projects</span>
+            <span className="text-blue-600 dark:text-blue-400">
+              {" "}Client Projects
+            </span>
           </h2>
           <div className="w-20 h-1 bg-blue-600 mx-auto mb-4"></div>
           <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
@@ -168,4 +170,4 @@ function ProjectLaptop() {
   );
 }
 
-export default ProjectLaptop;
+export default ClientProjectLaptop;

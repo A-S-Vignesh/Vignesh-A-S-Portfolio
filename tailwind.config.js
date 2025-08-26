@@ -23,8 +23,8 @@ export default {
         roboto: ["Roboto", "sans-serif"],
       },
       backgroundImage: {
-        "gradient-bluetowhite": "linear-gradient(to bottom, #3bbef8, #ffffff)",
-        "gradient-bluetogrey": "linear-gradient(to bottom, #3bbef8, #313d48)",
+        "gradient-bluetowhite": "linear-gradient(to bottom, #72d0fa, #ffffff)",
+        "gradient-bluetogrey": "linear-gradient(to bottom, #0369a1, #343c44)",
         "gradient-whitetoblue": "linear-gradient(to bottom, #ffffff, #c6eafd)",
         "gradient-greytodarkblue":
           "linear-gradient(to bottom, #313d48 , #184661)",

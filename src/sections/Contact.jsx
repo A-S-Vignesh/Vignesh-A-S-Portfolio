@@ -2,11 +2,11 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <section id="contact" data-aos="fade-up">
+    <section id="contact" className="mt-8">
       <div className="min-h-screen flex items-center justify-center px-4 py-12">
-        <div className="container mx-auto max-w-4xl bg-custom-blue shadow-custom-dark dark:bg-custom-darkblue dark:shadow-custom-light rounded-lg p-8 md:p-12">
+        <div className="container mx-auto max-w-4xl bg-custom-blue shadow-custom-dark dark:bg-custom-darkblue dark:shadow-custom-light rounded-lg p-8 md:p-12 overflow-hidden">
           {/* Header Section */}
-          <div data-aos="fade-down" data-aos-delay="100">
+          <div data-aos="fade-up" data-aos-delay="100">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-800 dark:text-gray-100 mb-4 text-center">
               Get in Touch
             </h2>
@@ -19,7 +19,7 @@ const Contact = () => {
           <form>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {/* Name Input */}
-              <div data-aos="fade-right" data-aos-delay="200">
+              <div data-aos="fade-up" data-aos-delay="200">
                 <label
                   htmlFor="name"
                   className="block text-sm font-medium text-gray-600 dark:text-gray-300"
@@ -35,7 +35,7 @@ const Contact = () => {
               </div>
 
               {/* Email Input */}
-              <div data-aos="fade-left" data-aos-delay="200">
+              <div data-aos="fade-up" data-aos-delay="200">
                 <label
                   htmlFor="email"
                   className="block text-sm font-medium text-gray-600 dark:text-gray-300"
