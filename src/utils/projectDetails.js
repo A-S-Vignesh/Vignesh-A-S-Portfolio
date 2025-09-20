@@ -1,19 +1,36 @@
 const projectDetails = [
   {
     id: 1,
-    name: "Blog-GPT",
+    name: "TheBlogGPT",
     image:
       "https://ik.imagekit.io/asvignesh/portfolio/project/the-blog-gpt-light.png",
     description:
       "A blog website where users from around the world can write blogs and generate content using Gemini AI.",
     gitlink: "https://github.com/A-S-Vignesh/blog-gpt",
     livedemo: "https://thebloggpt.vercel.app/",
-    
+
     techstack: [
       "Next.js",
       "MongoDB",
       "Tailwind CSS",
       "Gemini AI",
+      "Google Auth",
+      "JWT",
+    ],
+  },
+  {
+    id: 2,
+    name: "Money Nest",
+    image: "https://ik.imagekit.io/asvignesh/portfolio/project/money-nest.png",
+    description:
+      "A modern money management app to track income, expenses, and financial goals. Features a dashboard with charts, Google authentication, and secure JWT-based user management.",
+    gitlink: "https://github.com/A-S-Vignesh/money-management",
+    livedemo: "https://moneynestapp.vercel.app/",
+    techstack: [
+      "Next.js",
+      "MongoDB",
+      "Tailwind CSS",
+      "Zustand",
       "Google Auth",
       "JWT",
     ],
@@ -104,11 +121,8 @@ export const clientProjects = [
       "A portfolio website for a digital marketing professional, showcasing their services and expertise.",
     gitlink: "",
     livedemo: "https://www.vigneshwaran.co.in/",
-    
-    techstack: [
-      "React.js",
-      "Tailwind CSS",
-    ],
+
+    techstack: ["React.js", "Tailwind CSS"],
   },
   {
     id: 2,
@@ -120,11 +134,7 @@ export const clientProjects = [
     gitlink: "",
     livedemo: "https://rubyscaffolding.com/",
     fadeDuration: 300,
-    techstack: [
-      "Next.js",
-      "MongoDB",
-      "Tailwind CSS",
-    ],
+    techstack: ["Next.js", "MongoDB", "Tailwind CSS"],
   },
 ];
 
